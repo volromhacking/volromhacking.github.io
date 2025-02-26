@@ -20,27 +20,42 @@ main {
 }
 
 nav {
-    margin: 1rem;
+    margin: 0.5rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    font-size: 18px;
 }
 
 footer {
+    margin: 0;
     font-size: 12px;
-    padding: 1rem;
+    padding: 0.5rem;
     border: 0px solid rgba(20,22,24,0.5);
-    border-radius: 10px;
     background: rgba(20,22,24,0.5);
     color: rgb(55,59,65);
-    margin-top: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left:0;
+    right:0;
 }
 
 .navopt {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+.navlinks {
+    text-decoration: none;
+    transition: 200ms;
+    color: #373b41;
+}
+
+.navlinks:hover {
+    color: #81a2be;
 }
 
 .title {
